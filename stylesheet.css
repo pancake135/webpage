@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #0a0a16;
+    color: #e4e5ea;
+    font-family: "Segoe UI", sans-serif;
+    font-size: 18px;
+    letter-spacing: 3px;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+a{
+    color: inherit;
+    text-decoration: none;
+}
+
+header{
+    position: fixed;
+    width: 1;
+    height: 60px;
+    padding: 0 30px;
+    display: flex;
+    justify-self: space-between;
+    align-items: center;
+    background-color: rgb(10, 10, 22, 0.5);
+    z-index: 10;
+}
+
+.h{
+    font-size: 20px;
+}
+
+.h:hover{
+    color: blanchedalmond;
+}
